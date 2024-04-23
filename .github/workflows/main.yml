@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUD_TOKEN_PROJECT4_USERNAME }}/deployProject4:latest
+          tags: ${{ secrets.DOCKERHUD_TOKEN_PROJECT4_USERNAME }}/deployproject4:latest
